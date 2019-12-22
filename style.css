@@ -1,0 +1,81 @@
+.section-bg{
+    background-image: url(img/1.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+}
+.section-bg:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #31d6be;
+    opacity: .8;
+}
+.section-padding{
+    position: relative;
+}
+.contect-form input,
+.contect-form textarea{
+        width: 100%;
+        padding: 10px;
+        border: none;
+        margin-bottom: 17px;
+        color: #333;
+}
+.contect-form h2{
+    color: #fff;
+}
+.contect-form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contect-form
+input[type=submit]{
+    width: auto;
+    padding: 15px 30px;
+    color: #31d6be;
+    background: #fff;
+}
+.appointment-text h3{
+    padding-left: 38px;
+    font-size: 21px;
+    font-weight: 700;
+}
+.appointment-text{
+    padding-left: 55px;
+    padding-top: 100px;
+   
+}
+.appointment-text ul li{
+    list-style: none;
+    font-size: 16px;
+    padding-bottom: 16px;
+    color: #9e9e9e;
+}
+.appointment-text ul li i{
+    padding: 10px;
+    color: #31d6be;
+}
+.appointment-text a{
+    color: #fff;
+    background: #31d6be;
+    padding: 15px 30px;
+    margin-left: 55px;
+    
+}
+.appointment-text a:hover{
+        text-decoration: none;
+}
+.appointment-rt h2{
+    transform: rotate(-90deg);
+    margin-top: 295px;
+    font-size: 49px;
+    font-weight: 700;
+    opacity: .7;
+}
